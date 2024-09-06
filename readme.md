@@ -1,6 +1,6 @@
 # NNOS Shell
 
-A custom shell for the NNOS operating system, written in Bash, with support for configuration files, command history, and arrow key navigation.
+A custom shell for the NNOS operating system, written in Bash, with support for configuration files, and command history
 
 ## Features
 
@@ -35,7 +35,7 @@ USE_THIS_CONFIG="False"
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/nnos-shell.git
+   git clone https://github.com/natuworkguy/nnos-shell.git
    ```
 
 2. Navigate to the directory:
@@ -45,12 +45,12 @@ USE_THIS_CONFIG="False"
 
 3. Make the script executable:
    ```bash
-   chmod +x nnos-shell.sh
+   chmod +x */*
    ```
 
 4. Run the shell:
    ```bash
-   ./nnos-shell.sh
+   ./`VERSION`/nnos-shell.sh
    ```
 
 ## Usage
