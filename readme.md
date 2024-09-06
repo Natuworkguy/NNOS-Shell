@@ -1,6 +1,3 @@
-Here's a `README.md` file template for your GitHub repository based on the provided script:
-
-```markdown
 # NNOS Shell
 
 A custom shell for the NNOS operating system, written in Bash, with support for configuration files, command history, and arrow key navigation.
