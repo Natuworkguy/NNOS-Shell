@@ -15,8 +15,6 @@ A custom shell for the NNOS operating system, written in Bash, with support for 
 The configuration file (`~/.nsconfig`) controls the shell's behavior. If it does not exist, the shell will create it with the following default values:
 
 ```bash
-ALL="@"
-MAIN="0"
 CLEAR="True"
 # Defines if NNOS Shell clears before starting up.
 # Allowed values: True, False
@@ -24,6 +22,10 @@ USE_THIS_CONFIG="False"
 # Defines if this config is used.
 # If it is set to false, none of the settings above will apply.
 # Allowed values: True, False
+ALL="@"
+MAIN="0"
+SPAR="2"
+# Nerdy stuff
 ```
 
 ### Configurable Options:
